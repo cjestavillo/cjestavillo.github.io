@@ -157,7 +157,7 @@ a.boxclose {
 .banner-right h1 {
     color:#ffffff;
     font-size: 34px;
-    font-weight:800;
+    font-weight: 800;
     letter-spacing: 15px;
     margin:35px 0 15px 0;
 }
@@ -171,6 +171,7 @@ a.boxclose {
     color: #ffffff;
     font-weight: 300;
     font-style: italic;
+    line-height: 25px;
     margin: 15px 0 0 0;
 }
 .banner-right h4:nth-last-child(2) {
@@ -192,6 +193,7 @@ a.boxclose {
 }
 .banner-right {
     float:right;
+    width: 65%;
 }
 .border {
     background: #52edc7;
@@ -553,37 +555,44 @@ font-weight:700;
     position:relative;
 }
 .gallery1 .textbox {
-width:100%;
-height:100%;
-position:absolute;
-top:0;
-left:0;
--webkit-transform: scale(0);
-transform: scale(0);
-background-color:rgba(82, 237, 199, 0.5);
+    -webkit-transform: scale(0);
+    /* background-color:rgba(82, 237, 199, 0.5); */
+    background-color: rgba(28, 80, 67, 0.78);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    top: 0;
+    width: 100%;
 }
 .gallery1:hover .textbox {
--webkit-transform: scale(1);
-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 .gallery-grid img {
-width:100%;
+    width:100%;
 }
 .textbox {
--webkit-transition: all 0.7s ease;
-transition: all 0.7s ease;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
 }
 .textbox h4 {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   color: #fff;
-  margin-top: 115px;
+  margin-top: 75px;
+}
+.textbox h5 {
+    font-size: 15px !important;
+    color: #fff;
+    font-weight: 500 !important;
+    margin: 6px 0 0 0!important;
 }
 .textbox p {
   font-size: 12px !important;
   color: #fff;
-  font-weight:500 !important;
-  margin:6px 0 0 0!important;
+  font-weight: 500 !important;
+  margin: 6px 0 0 0!important;
 }
 .gallery-grids {
   margin-top: 50px;
@@ -605,6 +614,10 @@ color:#fff;
 font-family: 'Lato', sans-serif;
 font-size:18px;
 font-weight:700;
+}
+#swipebox-slider .slide img {
+    max-height: 85% !important;
+    width: auto !important;
 }
 /*--//portfolio--*/
 /*--process--*/
@@ -2749,7 +2762,7 @@ border:none;
 	}
 	.ser-grid {
 	  float: left;
-	  width: 50% !important;
+	  /* width: 50% !important; */
 	}
 	.ser-grid:nth-child(1) ,.ser-grid:nth-child(3),.ser-grid:nth-child(2){
 	margin-bottom:30px;
@@ -2981,7 +2994,10 @@ border:none;
 		letter-spacing: 10px;
 	}
 	.banner-right h2 {
-	  font-size: 30px;
+        font-size: 16px;
+    }
+    .banner-right h4 {
+        font-size: 12px;
 	}
 	.banner-right h2 {
 	  margin: 10px 0 28px 0;
@@ -3164,7 +3180,7 @@ border:none;
 	  width: 50%;
 	}
 	.gallery-section {
-	  min-height: 1073px;
+	  min-height: 1225px;
 	}
 	.textbox h4 {
 	  font-size: 16px;
