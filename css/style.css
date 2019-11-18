@@ -306,11 +306,11 @@ background: url(../images/icons.png) no-repeat 0px -71px;
     margin-bottom: 30px;
 }
 .skills-grid p {
-    color:#ffffff;
-    font-size:16px;
-    font-weight:600;
-    margin:20px 0 0 0;
-    text-transform:uppercase;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
 }
 .circle {
     color:#ffffff;
