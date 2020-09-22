@@ -2098,6 +2098,16 @@ border:none;
 	  padding: 0 0 45px 0;
 	}
 }
+@media(min-width:992px) {
+    #description .container,
+    #about .container {
+        padding: 0 200px;
+    }
+	
+    #portfolio .container .subheader {
+        padding: 0 170px;
+    }
+}
 @media(max-width:768px) {
     h3 {
         font-size: 24px !important;
